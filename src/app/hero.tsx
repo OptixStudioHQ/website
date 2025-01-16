@@ -5,9 +5,9 @@ import Image from "next/image"
 export default function Hero() {
   return (
 
-    <div className="relative h-full w-full bg-white">
+    <div className="relative h-screen w-full bg-white">
     <div className="flex min-h-[80vh] flex-col items-center justify-center px-4 text-center absolute h-full w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]">
-      {/* Trust Banner */}
+  
       <div className="mb-8 flex items-center gap-2">
         <div className="flex -space-x-2">
           {[1, 2, 3, 4].map((i) => (
@@ -42,7 +42,7 @@ export default function Hero() {
         Your trusted design partner for crafting user-first, conversion-driven products that delight users and wow investors.
       </p>
 
-      {/* CTAs */}
+    {/* schedule call button */}
       <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
         <Button size="lg" className="bg-[#ff5d47] text-white hover:bg-[#ff5d47]/90">
           Schedule a 30 min call
@@ -52,7 +52,7 @@ export default function Hero() {
         </Button>
       </div>
 
-      {/* Contact Email */}
+      
       <p className="mt-8 font-mono text-sm text-muted-foreground">
         or email at: optixstudioagency@gmail.com
       </p>

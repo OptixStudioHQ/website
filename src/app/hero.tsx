@@ -3,10 +3,13 @@
 import { Button } from "@/components/ui/button"
 import { Star, User } from 'lucide-react'
 import { motion } from 'framer-motion'
+import Navbar from "./navcomponent/navbar"
 
 export default function Hero() {
   return (
     <div className="relative min-h-screen w-full bg-gradient-to-br from-white to-gray-100">
+                <Navbar />
+
       <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]" />
       <div className="relative flex min-h-screen flex-col items-center justify-center px-4 text-center">
         <motion.div

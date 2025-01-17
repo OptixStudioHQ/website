@@ -37,7 +37,6 @@ export default function RootLayout({
               </Button>
             </div>
           </div>
-          <Navbar />
           <main className="flex-1">{children}</main>
         </div>
       </body>

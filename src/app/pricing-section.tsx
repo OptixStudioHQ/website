@@ -55,7 +55,7 @@ const tiers = [
 
 export default function PricingSection() {
   return (
-    <div className="bg-white py-4 sm:py-4">
+    <div className="bg-white py-4 sm:py-4 flex flex-col justify-center">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-4xl font-semibold leading-7 text-indigo-600">Pricing</h2>
@@ -64,7 +64,7 @@ export default function PricingSection() {
           </p>
         </div>
         <motion.div 
-          className="isolate mx-auto mt-8 grid max-w-md grid-cols-1 gap-6 sm:mt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+          className="isolate mx-auto mt-8 grid max-w-md grid-cols-1 gap-6 sm:mt-8 lg:mx-0 lg:max-w-none lg:grid-cols-3"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, staggerChildren: 0.1 }}

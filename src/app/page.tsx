@@ -2,6 +2,7 @@ import Image from "next/image";
 import Hero from "./hero";
 import ServicesSection from "./servicesSection";
 import PricingSection from "./pricing-section";
+import WorkSection from "./WorkSection";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
     <Hero/>
     <ServicesSection/>
     <PricingSection/>
-   
+   <WorkSection/>
     </>
   );
 }

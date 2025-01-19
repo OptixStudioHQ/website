@@ -44,7 +44,7 @@ export default function ServicesSection() {
   }
 
   return (
-    <section className=" px-4 py-4 h-screen">
+    <section className="flex flex-col justify-center px-4 py-4 h-screen">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
